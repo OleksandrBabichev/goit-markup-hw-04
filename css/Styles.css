@@ -146,9 +146,21 @@ header {border-bottom: 1px solid #ECECEC;
 
 /* hero  */
 .hero {    
-    background-color: #2F303A;
+    /* background-color: #2F303A; */
     text-align: center;
-    padding: 200px 0;} 
+    padding: 200px 0;
+    background-image:
+        linear-gradient(to right,
+        rgba(0, 0, 0, .4),
+        rgba(0, 0, 0, .4)),
+        url('../images/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1600px;
+    max-height: 600px;
+
+} 
 /* временно */
 
 .hero-title {
