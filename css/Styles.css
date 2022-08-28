@@ -265,12 +265,15 @@ header {border-bottom: 1px solid #ECECEC;
     margin-bottom: 30px;
     border-radius: 4px;
     background-color: #F5F4FA;
-    align-content: center;
-    justify-content: center;
+
 }
-.antenna {
-    align-content: center;
-        justify-content: center;
+.feature-block {
+    padding: 100px;
+    padding-top: 25px;
+}
+
+.feature .icon {
+    padding-left: 100px;
 }
 
 /* Чим ми займаємося */
@@ -289,13 +292,13 @@ header {border-bottom: 1px solid #ECECEC;
     justify-content: space-between;
 }
 
-.team li {
+.team .team-li {
     background-color: var(--primary-bcg-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.team li:not(:last-child) {
+.team .team-li:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -313,6 +316,7 @@ header {border-bottom: 1px solid #ECECEC;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
+    margin-bottom: 16px;
 }
 
 .team-names {
@@ -320,10 +324,44 @@ header {border-bottom: 1px solid #ECECEC;
     padding-bottom: 30px;
 }
 
-.team-social .social_inst {
-    box-shadow: none;
+.team-socials-div {
+    margin-left: 32px;
+}
+
+.team-social .social-list {
     width: 44px;
 }
+
+.social-block {
+    /* outline: 1px solid teal; */
+    padding-left: 12px;
+    padding-top: 12px;
+    border-radius: 50%;
+
+}
+
+.social-list {
+    margin-right: 10px;
+}
+
+.social-block:hover {
+    background-color: var(--hover-tet-color);
+    fill: #ffffff;
+    stroke: #ffffff;
+    
+}
+
+.clients-list {
+    display: flex;
+}
+
+.clients-item {
+    /* outline: 1px solid #AFB1B8; */
+    border: 1px solid #AFB1B8;
+    height: 92px;
+    width: 170px;
+}
+
 /* footer */
 
 

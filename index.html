@@ -68,8 +68,8 @@
                     <ul class="list feature">
                         <li class="feature-item">
                             <div class="feature-icon">
-                            <svg class="antenna">
-                                <use href="./images/sprite.svg#antenna" width="70px" height="70px">
+                            <svg class="antenna feature-block">
+                                <use href="./images/sprite.svg#antenna" width="70px" height="70px" class="icon">
                                 </use>
                             </svg>
                             </div>
@@ -78,7 +78,7 @@
                         </li>
                         <li class="feature-item">
                             <div class="feature-icon">
-                                <svg class="clock">
+                                <svg class="clock feature-block">
                                     <use href="./images/sprite.svg#clock" width="70px" height="70px">
                                     </use>
                                 </svg>
@@ -88,7 +88,7 @@
                         </li>
                         <li class="feature-item">
                             <div class="feature-icon">
-                                <svg class="antenna">
+                                <svg class="diagram feature-block">
                                     <use href="./images/sprite.svg#diagram" width="70px" height="70px">
                                     </use>
                                 </svg>
@@ -98,7 +98,7 @@
                         </li>
                         <li class="feature-item">
                             <div class="feature-icon">
-                                <svg class="antenna">
+                                <svg class="astronaut feature-block">
                                     <use href="./images/sprite.svg#astronaut" width="70px" height="70px">
                                     </use>
                                 </svg>
@@ -127,59 +127,206 @@
                 <div class="container">
                     <h2 class="section-title">Наша команда</h2>
                     <ul class="list team">
-                        <li>
+                        <li class="team-li">
                             <img src="./images/ihor.jpg" alt="Ігор Дем'яненко" width="270">
                             <div class="team-names">
                             <h3 class="title">Ігор Дем'яненко</h3>
                             <p class="job">Product Designer</p>
-                            <ul class="list team-social">
-                                <li class="social_inst">
-                                    <a href="">
-                                    <svg>
-                                        <use href="./images/sprite.svg#instagram" width=44px height=44px></use>
-                                    </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                    <svg>
-                                        <use href="./images/sprite.svg#twitter" width=44px height=44px></use>
-                                    </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                    <svg>
-                                        <use href="./images/sprite.svg#facebook" width=44px height=44px></use>
-                                    </svg>
-                                    </a>
-                                </li>
-                            </ul>
+                            <div class="team-socials-div">
+                                <ul class="list team-social">
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#instagram" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#twitter" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#facebook" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#linkedin" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="team-li">
                             <img src="./images/olha.jpg" alt="Ольга Рєпіна" width="270">
                             <div class="team-names">
                             <h3 class="title">Ольга Рєпіна</h3>
                             <p class="job">Frontend Developer</p>
+                            <div class="team-socials-div">
+                                <ul class="list team-social">
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#instagram" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px"
+                                                    class="social-block">
+                                                <use href="./images/sprite.svg#twitter" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px"
+                                                    class="social-block">
+                                                <use href="./images/sprite.svg#facebook" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px"
+                                                    class="social-block">
+                                                <use href="./images/sprite.svg#linkedin" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="team-li">
                             <img src="./images/mykola.jpg" alt="Микола Тарасов" width="270">
                             <div class="team-names">
                             <h3 class="title">Микола Тарасов</h3>
                             <p class="job">Marketing</p>
+                            <div class="team-socials-div">
+                                <ul class="list team-social">
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#instagram" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#twitter" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#facebook" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#linkedin" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="team-li">
                             <img src="./images/myhaylo.jpg" alt="Михайло Єрмаков" width="270">
                             <div class="team-names">
                             <h3 class="title">Михайло Єрмаков</h3>
                             <p class="job">UI Designer</p>
+                            <div class="team-socials-div">
+                                <ul class="list team-social">
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#instagram" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#twitter" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#facebook" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a href="">
+                                            <svg width="44px" height="44px" class="social-block">
+                                                <use href="./images/sprite.svg#linkedin" width=20px height=20px class="social-icon"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             </div>
                         </li>
                     </ul>
                 </div>
+            </section>
+
+            <!-- постійні клієнти -->
+            <section class="section">
+                <div class="container">
+                <h2 class="section-title">Постійні клієнти</h2>
+                <ul class="list clients-list">
+                    <li width=170px height="92px" class="clients-item">
+                        <svg>
+                            <use href="./images/sprite.svg#client-one"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use href="./images/sprite.svg#client-two"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use href="./images/sprite.svg#client-three"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use href="./images/sprite.svg#client-four"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use href="./images/sprite.svg#client-five"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use href="./images/sprite.svg#client-six"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
             </section>
         
     </main>
