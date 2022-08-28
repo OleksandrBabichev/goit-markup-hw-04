@@ -113,6 +113,8 @@ header {border-bottom: 1px solid #ECECEC;
 
 
 
+
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--hover-tet-color);}
@@ -135,9 +137,17 @@ header {border-bottom: 1px solid #ECECEC;
 }
 
 .head-contact:hover,
-.head-contact:focus {
-    color: var(--hover-tet-color)
+.head-contact:focus
+ {
+    color: var(--hover-tet-color);
+    stroke: var(--hover-tet-color);
 }
+
+.head-icon {
+    max-width: 16px;
+    max-height: 16px;
+}
+
 
 .section {
     padding-bottom: 94px;
@@ -249,6 +259,20 @@ header {border-bottom: 1px solid #ECECEC;
     text-align: center;
     letter-spacing: 0.03em;}
 
+.feature-icon {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    align-content: center;
+    justify-content: center;
+}
+.antenna {
+    align-content: center;
+        justify-content: center;
+}
+
 /* Чим ми займаємося */
 
 .technology {padding-top: 0;}
@@ -296,6 +320,10 @@ header {border-bottom: 1px solid #ECECEC;
     padding-bottom: 30px;
 }
 
+.team-social .social_inst {
+    box-shadow: none;
+    width: 44px;
+}
 /* footer */
 
 
