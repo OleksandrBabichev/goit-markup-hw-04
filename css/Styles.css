@@ -20,7 +20,8 @@
         --hover-tet-color: #2196F3;
         --primary-bcg-color: #FFFFFF;
         --secondary-bcg-color: #F5F4FA;
-        --footer-bcg-color: #2F303A;}
+        --footer-bcg-color: #2F303A;
+        --primary-link-color: #AFB1B8;}
 
 body {
     background-color: var(--primary-bcg-color);
@@ -368,16 +369,30 @@ header {border-bottom: 1px solid #ECECEC;
 
 .clients-list {
     display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
-.clients-item {
-    /* outline: 1px solid #AFB1B8; */
-    border: 1px solid #AFB1B8;
-    height: 92px;
+.clients-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 170px;
+    height: 92px;
+    border: 1px solid var(--primary-link-color);
+    border-radius: 4px;
+    fill: var(--primary-link-color);
 }
-.icon-test {
-    
+
+.clients-link:hover {
+    border-color: var(--hover-tet-color);
+    fill: var(--hover-tet-color);
+}
+
+.clients-icon {
+    width: 106px;
+    height: 60px;
+    color: currentColor;
 }
 
 /* footer */
@@ -459,6 +474,12 @@ header {border-bottom: 1px solid #ECECEC;
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
+}
+
+.examples li:hover {
+    box-shadow: 2px 2px 5px,
+                -2px -2px 5px,
+                2px 2px 5px;
 }
 
 .filter-buttons li {
