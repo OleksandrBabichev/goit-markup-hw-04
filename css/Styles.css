@@ -403,7 +403,9 @@ header {border-bottom: 1px solid #ECECEC;
     padding: 60px 0;
 }
 
-
+.foot-blocks {
+    display: flex;
+}
 
 .foot .logo-foot {
     color: var(--primary-bcg-color);
@@ -441,6 +443,55 @@ header {border-bottom: 1px solid #ECECEC;
 
 .contact-foot {
     color: rgba(255, 255, 255, 0.6);}
+
+/* .invite {
+    margin-left: 30px;
+} */
+
+.container-foot {
+    display: flex;
+}
+
+.invite-footer {
+    margin-left: 70px;
+}
+
+.invite-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-bcg-color);
+    margin-bottom: 20px;
+}
+
+.ivite-list {
+    display: flex;
+    column-gap: 10px;
+}
+
+.invite-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.invite-link:hover {
+    background-color: var(--hover-tet-color);
+}
+
+.icon-foot {
+    width: 20px;
+    height: 20px;
+    fill: var(--primary-bcg-color);
+}
 
 /* кнопки */
 
