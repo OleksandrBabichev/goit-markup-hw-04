@@ -52,13 +52,13 @@ img {
 
 .list {list-style: none;
     padding-left: 0;
-    margin: 0;}
+    margin: 0;
+}
 
 .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    
 }
 
 .qwerty {
@@ -90,7 +90,7 @@ header {border-bottom: 1px solid #ECECEC;
 
 .web {color: var(--hover-tet-color);}
 
-.link{
+.link {
     text-decoration: none;}
 
 .site-nav {
@@ -99,7 +99,7 @@ header {border-bottom: 1px solid #ECECEC;
 
 .site-nav .list {
     display: flex;   
-   }  
+}  
 
 
 .site-nav .link{
@@ -109,12 +109,7 @@ header {border-bottom: 1px solid #ECECEC;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
 }
-
-
-
-
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -163,7 +158,6 @@ header {border-bottom: 1px solid #ECECEC;
 
 /* hero  */
 .hero {    
-    /* background-color: #2F303A; */
     text-align: center;
     padding: 200px 0;
     background-image:
