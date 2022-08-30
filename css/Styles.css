@@ -350,16 +350,12 @@ header {border-bottom: 1px solid #ECECEC;
 }
 
 .social-block {
-    /* outline: 1px solid teal; */
     width: 20px;
     height: 20px;
     fill: currentColor;
 
 }
 
-.social-list {
-    margin-right: 10px;
-}
 .social-link:hover,
 .social-link:focus {
     background-color: var(--hover-tet-color);
@@ -444,9 +440,6 @@ header {border-bottom: 1px solid #ECECEC;
 .contact-foot {
     color: rgba(255, 255, 255, 0.6);}
 
-/* .invite {
-    margin-left: 30px;
-} */
 
 .container-foot {
     display: flex;
