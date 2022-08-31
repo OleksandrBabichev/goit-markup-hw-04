@@ -137,13 +137,14 @@ header {border-bottom: 1px solid #ECECEC;
 .head-contact:focus
  {
     color: var(--hover-tet-color);
-    stroke: var(--hover-tet-color);
+    fill: var(--hover-tet-color);
 }
 
 .head-icon {
-    max-width: 16px;
-    max-height: 16px;
-    margin-right: 10px
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 .smartphone {
@@ -169,7 +170,8 @@ header {border-bottom: 1px solid #ECECEC;
     background-size: cover;
     background-position: center;
     max-width: 1600px;
-    max-height: 600px;
+    height: 600px;
+    margin: 0, auto;
 
 } 
 /* временно */
@@ -340,7 +342,7 @@ header {border-bottom: 1px solid #ECECEC;
     height: 44px;
     border-radius: 50%;
     background-color: var(--primary-bcg-color);
-    color: var(--primary-text-color);
+    color: var(--primary-link-color);
 }
 
 .social-block {
@@ -354,7 +356,7 @@ header {border-bottom: 1px solid #ECECEC;
 .social-link:focus {
     background-color: var(--hover-tet-color);
     color: var(--primary-bcg-color);
-    stroke: var(--primary-bcg-color);
+    /* stroke: var(--primary-bcg-color); */
 }
 
 .clients-list {
@@ -374,7 +376,8 @@ header {border-bottom: 1px solid #ECECEC;
     fill: var(--primary-link-color);
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
     border-color: var(--hover-tet-color);
     fill: var(--hover-tet-color);
 }
@@ -437,6 +440,7 @@ header {border-bottom: 1px solid #ECECEC;
 
 .container-foot {
     display: flex;
+    align-items: baseline;
 }
 
 .invite-footer {
@@ -470,7 +474,8 @@ header {border-bottom: 1px solid #ECECEC;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.invite-link:hover {
+.invite-link:hover,
+.invite-link:focus {
     background-color: var(--hover-tet-color);
 }
 
@@ -514,17 +519,30 @@ header {border-bottom: 1px solid #ECECEC;
     justify-content: center;
 }
 
-.examples li:hover {
-    box-shadow: 2px 2px 5px,
-                -2px -2px 5px,
-                2px 2px 5px;
+.example-link:hover,
+.example-link:focus {
+    box-shadow: 
+        2px 2px 5px,
+        -2px -2px 5px,
+        2px 2px 5px;
+}
+
+.example-link {
+    display: block;
+    text-decoration: none;
+}
+
+.examples li:hover,
+.examples li:focus {
+
 }
 
 .filter-buttons li {
     margin-right: 8px;
 }
 
-.button.secondary:hover {
+.button.secondary:hover,
+.button.secondary:focus {
     box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 
     0px 1px 2px rgb(0 0 0 / 8%), 
     0px 2px 2px rgb(0 0 0 / 12%);
@@ -564,7 +582,10 @@ header {border-bottom: 1px solid #ECECEC;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
+    color: var(--primary-text-color)
 }
+
+
 
 .frame {
     /* width: 370px; */
